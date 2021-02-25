@@ -1,5 +1,5 @@
-import color from 'src/color'
-import time from 'src/time'
+import color from './src/color'
+import time from './src/time'
 
 
 module.exports.color = color
