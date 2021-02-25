@@ -1,9 +1,8 @@
-// import color from './src/color'
-// import time from './src/time'
+// import colors from './colors'
+// import time from './time'
+const time = require("./time")
 
 
-// exports.color = color
-// exports.time = time
 class Color {
     constructor(name, code) {
         this.name = name;
@@ -23,5 +22,5 @@ const allColors = [
 exports.getRandomColor = () => {
     return allColors[Math.floor(Math.random() * allColors.length)];
 }
-
+exports.time = time
 exports.allColors = allColors;
